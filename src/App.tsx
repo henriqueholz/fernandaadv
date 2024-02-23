@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -155,7 +155,7 @@ const customer = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel, orci lectus neque nascetur amet, suscipit feugiat. Et, diam tristique quisque platea viverra amet, eget.",
   },
 ];
-function SampleNextArrow(props) {
+function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <div className={className} style={{ ...style }} onClick={onClick}>
@@ -163,7 +163,7 @@ function SampleNextArrow(props) {
     </div>
   );
 }
-function SamplePrevArrow(props) {  const { className, style, onClick } = props;
+function SamplePrevArrow(props: any) {  const { className, style, onClick } = props;
   return (
     <div
       className={className}
